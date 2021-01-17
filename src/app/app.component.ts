@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-
+import { from } from 'rxjs';
+import{} from 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'web';
+  itemname:string="manoj";
 }
